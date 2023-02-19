@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Event from '../pages/Event';
 import Login from '../pages/Login';
 
@@ -13,9 +13,9 @@ export enum RouteNames {
 }
 
 export const publicRoutes: IRoute[] = [
-	{path: RouteNames.LOGIN, component: Login}
+	{ path: RouteNames.LOGIN, component: Login }
 ]
 
 export const privateRoutes: IRoute[] = [
-	{path: RouteNames.EVENT , component: Event}
+	{ path: RouteNames.EVENT, component: Event }
 ]
